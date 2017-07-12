@@ -1,6 +1,6 @@
 {
   "name": "richard/test",
-  "description": "Implements integration with the QuickPay payment service provider.",
+  "description": "some Testing",
   "authors": [
     {
       "name": "Richard",
@@ -12,10 +12,7 @@
   },
   "type": "magento2-module",
   "version": "1.0.0",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
+  "license": "MIT",
   "autoload": {
     "files": [
       "registration.php"
