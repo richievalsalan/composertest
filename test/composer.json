@@ -1,0 +1,27 @@
+{
+  "name": "richard/test",
+  "description": "Implements integration with the QuickPay payment service provider.",
+  "authors": [
+    {
+      "name": "Richard",
+      "email": "rich@example.com"
+    }
+  ],
+  "require": {
+    "php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Richard\\Test\\": ""
+    }
+  }
+}
